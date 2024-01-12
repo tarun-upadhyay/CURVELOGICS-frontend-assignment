@@ -98,7 +98,7 @@ const Client = () => {
         >
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
-              Add new service
+              Add new client
             </Typography>
             <form
               className="my-5 flex flex-col gap-4"

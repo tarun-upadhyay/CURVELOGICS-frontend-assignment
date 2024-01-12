@@ -6,11 +6,29 @@ import NewCards from "../../ui/Homepage/NewCards";
 const Homepage = () => {
   const [news, setNews] = useState([]);
   useEffect(() => {
-    axios
-      .get(
-        `https://newsapi.org/v2/top-headlines?country=us&apiKey=9a6045871d5d463481c2a265bdf29a7d`
-      )
-      .then((res) => setNews(res.data.articles));
+    (async () => {
+      const options = {
+        method: "GET",
+        url: "https://news67.p.rapidapi.com/v2/topic-search",
+        params: {
+          languages: "en",
+          search: "usa",
+          batchSize: "30",
+        },
+        headers: {
+          "X-RapidAPI-Key":
+            "e44104b70dmsh712143f165c3b72p192680jsn236b8315ab37",
+          "X-RapidAPI-Host": "news67.p.rapidapi.com",
+        },
+      };
+
+      try {
+        const response = await axios.request(options);
+        setNews(response.data.news);
+      } catch (error) {
+        console.error(error);
+      }
+    })();
   }, []);
   console.log(process.env.REACT_APP_KEY);
   return (

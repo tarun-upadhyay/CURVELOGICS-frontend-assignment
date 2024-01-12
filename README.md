@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+<h1 align="center">
+🌐 React App
+</h1>
+<p align="center">
+   <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+   </a>
+   <a href="https://circleci.com/gh/amazingandyyy/mern">
+      <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
+   </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CURVELOGICS Frontend Coding Assignment.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+I created this website as a react assignment which given by Data Science Academy, basically showcasing my skills in frontend programming.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ReactJs
+- Javascript (ES6)
+- TailwindCss
+- React-Router-Dom@v6
+- Material UI
+- Material UI Icons
 
-### `npm test`
+## Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- For development, you will only need Node.js and a node global package, NPM, installed in your environement.
 
-### `npm run build`
+## Clone or Download
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```terminal
+$ git clone https://github.com/tarun-upadhyay/CURVELOGICS-frontend-assignment.git
+$ yarn # or npm i
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```terminal
+frontend
+    - package.json
+    - src
+        - index.js
+        - App.jsx
+     - Components
+     - Pages
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Client-side usage(PORT: 3000)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```terminal
+$ cd frontend          // go to frontend folder
+$ yarn # or npm i     // npm install packages
+$ npm start          // run it locally
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Glimpses
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Homepage
 
-## Learn More
+![Alt text](./images/image.png)
+![Alt text](./images/image-1.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Dashboard
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Alt text](./images/image-2.png)
 
-### Code Splitting
+### Service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Alt text](./images/image-3.png)
 
-### Analyzing the Bundle Size
+- Add new Service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Alt text](./images/image-4.png)
 
-### Making a Progressive Web App
+- Delete Service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Alt text](./images/image-5.png)
 
-### Advanced Configuration
+- Edit Service
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Alt text](./images/image-6.png)
 
-### Deployment
+### Clients
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Alt text](./images/image-7.png)
 
-### `npm run build` fails to minify
+- Add new Client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Alt text](./images/image-9.png)
+
+- Delete Client
+
+![Alt text](./images/image-10.png)
+
+### Contact Us
+
+![Alt text](./images/image-11.png)
+
+---
+
+# Thank you for your time
+
+- Thank you for using this application
+- Feel free to ask any query.
+
+[My Github](https://github.com/tarun-upadhyay)
+https://github.com/tarun-upadhyay
+
+[My Portfolio](https://tarun-upadhyay.github.io/)
+https://tarun-upadhyay.github.io/
+
+[Email ME](mailto:tarunu88@gmail.com)
+
+---
