@@ -16,8 +16,7 @@ const Homepage = () => {
           batchSize: "30",
         },
         headers: {
-          "X-RapidAPI-Key":
-            "e44104b70dmsh712143f165c3b72p192680jsn236b8315ab37",
+          "X-RapidAPI-Key": process.env.REACT_APP_KEY,
           "X-RapidAPI-Host": "news67.p.rapidapi.com",
         },
       };
